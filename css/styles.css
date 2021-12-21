@@ -81,9 +81,10 @@ ul {
 .header-list{
     display: flex;
     justify-content: space-between;
+    margin-left: 93px;
 }
 
-.header.logo {
+.header .logo {
     color: var(--second-accent-color);
     font-family: Raleway;
     font-weight: 700;
@@ -92,7 +93,7 @@ ul {
     text-decoration: none;
 }
 
-.header.logo:hover {
+.header .logo:hover {
     color: var(--accent-color);
 }
 
@@ -301,17 +302,18 @@ ul {
     padding-bottom: 60px;
 }
 
-.footer.logo {
+.footer .logo {
     color: var(--white-color);
     margin-bottom: 20px;
     display: flex;
+    font-family: Raleway;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
 }
 
-.footer.logo:hover {
+.footer .logo:hover {
     color: var(--accent-color);
 }
 
